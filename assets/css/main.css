@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-between;
     background-color: #f2f8ec;
-    padding: 16px 160px;
+    padding: 16px 12vw;
     
 }
 
@@ -43,7 +43,7 @@
 .nav {
     display: flex;
     justify-content: space-between;
-    padding: 8px 160px;
+    padding: 8px 12vw;
 }
 
 .nav__core-info {
@@ -53,7 +53,7 @@
 .nav__core-info-symbol {
     display: flex;
     align-items: center;
-    font-size: 7rem;
+    font-size: 4.3vw;
     color: #357f34;
     padding-right: 20px;
 }
@@ -68,16 +68,16 @@
 
 .nav__core-info-detail p,
 .nav__core-info-detail h1 {
-    margin: 4px 0;
+    margin: 0.3vw 0;
 }
 
 .nav__core-info-detail h1 {
-    font-size: 2.5rem;
+    font-size: 1.6vw;
     color: #357f34;
 }
 
 .nav__core-info-detail p {
-    font-size: 1.4rem;
+    font-size: 1vw;
     color: var(--text-color-brighter);
 }
 
@@ -86,7 +86,6 @@
 }
 
 .nav__nav-bar-list {
-    list-style: none;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -94,8 +93,8 @@
 }
 
 .nav__nav-bar-items {
-    padding: 0 48px;
-    font-size: 1.7rem;
+    padding: 0 1.6vw;
+    font-size: 1vw;
     color: var(--text-color);
     letter-spacing: 0.08px;
     text-decoration: none;
@@ -110,7 +109,7 @@
 .nav a:last-child {
     display: block;
     background-color: #80bd27;
-    padding: 16px 48px;
+    padding: 1vw 3vw;
     border-radius: 50px;
     color: var(--white-color);
 }
@@ -152,7 +151,7 @@
     display: flex;
     justify-content: center;
     text-align: left;
-    margin: 64px 160px;
+    margin: 64px 12vw;
     line-height: 2.5rem;
     font-size: 2rem;
     font-style: italic;
@@ -230,9 +229,10 @@
 }
 
 .content__some-things {
-    height: 50rem;
     display: flex;
     flex-direction: row;
+    height: 55rem;
+    box-sizing: border-box;
 }
 
 .content__some-things h1 {
@@ -254,7 +254,6 @@
 .content__customer {
     display: flex;
     flex-direction: column;
-    
 }
 
 .content__customer-analys {
@@ -264,25 +263,25 @@
 }
 
 .content__customer-analys-box {
-    padding-right: 80px;
+    padding-right: 3vw;
 }
 
 .content__customer-analys h2 {
-    font-size: 5rem;
+    font-size: 3vw;
 }
 
 .content__customer-analys h3 {
-    font-size: 1.5rem;
+    font-size: 1vw;
 }
 
 .content__commit {
+    min-height: 100%;
     background-color: #faf5f2;
 }
 
 .content__form-box {
     display: flex;
     flex-direction: column;
-
 }
 
 .content__form-box-type:first-child {
@@ -315,7 +314,6 @@
 }
 
 .content__procedure {
-    height: 72rem;
     background-color: #f4f5f0;
 }
 
@@ -464,6 +462,7 @@
     letter-spacing: 0.3px;
     text-decoration: none;
     font-weight: 300;
+    line-height: 2.1rem;
 }
 
 .footer__items:hover {
@@ -492,7 +491,7 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 12px 160px;
+    padding: 12px 12vw;
     font-size: 2rem;
     color: white;
     font-weight: 200;
